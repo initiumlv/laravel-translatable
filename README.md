@@ -1,9 +1,5 @@
 # Laravel Translatable
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/initiumlv/laravel-translatable.svg?style=flat-square)](https://packagist.org/packages/initiumlv/laravel-translatable)
-
-[![Total Downloads](https://img.shields.io/packagist/dt/initiumlv/laravel-translatable.svg?style=flat-square)](https://packagist.org/packages/initiumlv/laravel-translatable)
-
 A Laravel package that provides easy multi-language (i18n) support for Eloquent models. It automatically manages translations by separating translatable columns into dedicated translation tables, allowing you to store and retrieve model data in multiple languages seamlessly.
 
 ## Features
