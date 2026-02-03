@@ -1,0 +1,28 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Initium\LaravelTranslatable\Components\Database\Blueprint;
+use Initium\LaravelTranslatable\Facades\TranslatableSchema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        TranslatableSchema::table('{{ table }}', function (Blueprint $table) {
+
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        TranslatableSchema::table('{{ table }}', function (Blueprint $table) {
+
+        });
+    }
+};
